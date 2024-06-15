@@ -1,0 +1,58 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+## Unsupervised Machine Learning on Zwcky Transient Facility (ZTF) Light Curves
+
+**June 2023 - Present**
+ 
+Summer Undergraduate Research Fellowship with **Dr. Dalya Baron** and **Dr. Matthew Graham** at Carnegie Observatories.
+
+The research was on developing and testing a methodology for using unsupervised machine learning to mine ZTF light curves for rare, anomalous sources, new classes of transient and hidden relationships previously undiscovered in the data along with understanding the physical processes that drive those relationships. 
+									
+We took a sample of simulated periodic and non-periodic light curves where we adjust the shape, sparsity of observations and noise in the light curves. Then, we extract a set of features for each light curve where for each combination of points on the light curve, we compute the delta time and magnitude and bins those values onto a 2D-histogram. Finally, we apply a dimensionality technique called Uniform Manifold Approximation and Projection (UMAP) to the feature vectors to represent the light curves as points in 2D-space. 
+
+We presented the result to applying dimensionality reduction to simulated ZTF light curves in the figure below. Overall, we can distinguish different periodic light curves along with periodic and non-periodic light curves. The next step is to apply this technique to real ZTF light curves to discover the unknown in ZTF light curves. 
+
+In addition to the weekly status updates I gave to both of my advisors, I gave a [talk](https://www.youtube.com/watch?v=2wi1nkayAvE) on this work at the end of the summer to the Carnegie community. 
+
+
+<center><img src="https://avi-patel226.github.io/images/UMAP_figure.jpg" class="floatpic" width="480" height="480"></center>
+
+ The top left panel shows the UMAP diagram of a sample of period and non-periodic light curves. The adjacent panels each highlight a few light curves drawn from our sample where we adjust a parameter such as the period. The colors of the light curves in these panels correspond to the colors of the points on the UMAP diagram.
+
+ <!-- <center><figure style="width:90%">
+               <a href="https://avi-patel226.github.io/images/UMAP_figure.jpg"> <img src="https://avi-patel226.github.io/images/UMAP_figure.jpg" alt="Spread of initial conditions" width=90%></a>
+                <figcaption> The top left panel shows the UMAP diagram of a sample of period and non-periodic light curves. The adjacent panels each highlight a few light curves drawn from our sample where we adjust a parameter such as the period. The colors of the light curves in these panels correspond to the colors of the points on the UMAP diagram.</figcaption>
+            </figure></center> -->  
+
+## Characterizing Variable Stars in the Galactic Bulge 
+
+**June 2022 - August 2022**
+
+Project supervised by **Dr. Monika Soraisam** of NSF's NOIRLab. 
+
+The goal of this research was to characterize variable stars in Galactic fields from the Dark Energy Camera (DECam) Deep Drilling Fields (DDF) survey. We performed unsupervised real/bogus classification of the alerts using PCA on the features from the alerts metadata and used a Gaussian Mixture Model with two components to cluster the alerts. I co-authored a [paper](https://ui.adsabs.harvard.edu/abs/2023MNRAS.519.3881G/abstract) on this sky survey and presented my work to the astronomy community at the DECam at 10 years workshop. 
+
+## Variable Stars in M31 Stellar Clusters </h3>
+
+**June of 2021 - Present**
+    
+Project supervised by **Dr. Raja Guhathakurta** of UC Santa Cruz and **Dr. Monika Soraisam** of NSF's NOIRLab
+
+We mined for bright variable stars in crowded stellar clusters in the Andromeda Galaxy from the Panchromatic Hubble Andromeda Treasury (PHAT) Survey. To confirm variablity of these candidates, I developed a robust difference imaging pipeline which includes image reprojection of each science frame onto its respective template frame along with astrometric registration. I then performed background subtraction on each pair of science and template frames to account for the background variation during the PSF-matching and image subtraction phase. Lastly, I matched the PSF for each set of frames using the Bramich technique and subtracted the images, identifying any residuals above 5$\sigma$ the local background. 
+
+I presented this work at the 237th AAS meeting and I am finalizing a manuscript for publication.
+
+## Ensemble Variability
+
+**May 2020 - Oct 2022** 
+
+REU with Dr. Joshua Pepper of Lehigh University.
+
+The research was on developing a methodology to age-date unresolved star clusters by extracting and analyzing their photometric variability using data from TESS. I worked on this project from its infancy, developing methods to extract stellar variability from images of several Milky Way open and globular clusters drawn from TESS. I developed tools to subtract background fluctuations from these images along with position-distributed light curves, identifying the most variable sources in the frames.
+
+I presented my results to my advisor on a weekly basis and to the faculty and REU students at the end of the summer. I recently, co-authored a [paper](https://ui.adsabs.harvard.edu/abs/2023AJ....166..106W/abstract) on this work  
