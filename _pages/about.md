@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello, my name is Avi Patel. I'm an undergraduate student studying mechanical engineering at the California Institute of Technology. I transferred to Caltech from Haverford College via the 3/2 engineering program where I studied physics. I will receive a B.S. in physics and mechanical engineering in June 2024. In my free time, I play guitar and write music. I'm an avid mountain biker as well. 
+Hello, my name is Avi Patel. I'm an undergraduate student studying mechanical engineering at the California Institute of Technology. I transferred to Caltech from Haverford College via the 3/2 engineering program where I studied physics. I received a B.S. in physics and mechanical engineering in June 2024. In my free time, I play guitar and write music. I'm an avid mountain biker as well. 
 
 <img src="https://avi-patel1.github.io/images/IMG_8290.png" class="floatpic" width="360" height="480">
 
