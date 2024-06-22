@@ -8,10 +8,10 @@ author_profile: false
 # Mountain and Road Biking 
 
 <p float="left">
-  <img src="https://avi-patel226.github.io/images/sierraAzul.png" width="33%" />
-  <img src="https://avi-patel226.github.io/images/IMG_6748.png" width="33%" />
-  <img src="https://avi-patel226.github.io/images/IMG_6075.png" width="33%" />
-  <img src="https://avi-patel226.github.io/images/IMG_6246.png" width="33%" />
+  <img src="https://avi-patel1.github.io/images/sierraAzul.png" width="33%" />
+  <img src="https://avi-patel1.github.io/images/IMG_6748.png" width="33%" />
+  <img src="https://avi-patel1.github.io/images/IMG_6075.png" width="33%" />
+  <img src="https://avi-patel1.github.io/images/IMG_6246.png" width="33%" />
 </p>
 
 
