@@ -1,49 +1,50 @@
 ---
 title: "Robotics"
-excerpt: " <br/><img src='/images/129_bot.jpg'>"
+excerpt: "<img src='/images/129_bot.jpg'>"
 collection: portfolio
 ---
 
 
 <html>
-    <h2>
-        Experimental Robotics - CS/EE/ME 129
-    </h2>
+
+    <details>
+        <summary><b> Experimental Robotics - CS/EE/ME 129 </b>
+        </summary>
+        <p>
+            <p> </p>
+            I built a mobile, line and wall following robot as part of the CS/EE/ME 129 course at Caltech.
+            The hardware includes three IR sensors for line following, end of road
+            and intersection detection behaviors, a magnetometer board to measure the orientation 
+            of the robot and three ultrasonic sensors to detect blockages in front and at the sides 
+            of the robot.
+            
+            <img src="/images/129_Bot_rename.png" width="500" height="500" class="align-center"
+            alt="Diagram">
+            
+            <p> </p>
+            For the robot's software, I wrote the autonomous navigation algorithms, UI and mapping. 
+            At every intersection, there are eight possible headings for the robot to explore. 
+            Each heading (streets) is denoted by the following status colored on the map shown in the video below:
+            
+            <ul>
+                <li><span style="color:black;"> Black</span>: existence of the street is unknown</li>
+                <li> <span style="color:blue;"> Blue</span>: street exists but is unexplored</li>
+                <li><span style="color:green;"> Green</span>: street is fully explored (connect to another intersection)</li>
+                <li><span style="color:red;"> Red</span>: street has a dead end</li>
+            </ul>
+            I implemented Dijkstra's algorithm to find the optimal path to a goal node set by the user. 
+            If the node is not on the current map, I implemented Dijkstra to the nearest nodes with unexplored headings
+            while also exploring the map in the direction of the goal.
+            Blockages are denoted by a red X on the map in the video below. The robot is able to replan around static blockages
+            along with perform a panic u-turn on moving blockages. 
+    
+            Below, is a demo of the robot where we run a directed explore 
+        </p>
+        <video width="700" height="500" controls>
+            <source src="/images/129Demo.mp4" type="video/mp4"></video>
+    </details>
     
 <body>
 
-
     <p>
 
-        I built a mobile, line-following robot as part of the CS/EE/ME 129 course at Caltech. \n
-        The hardware includes:
-        <ul>
-            <li>Three IR sensors for line following, end of road and intersection detection behaviors</li>
-            <li>Magnetometer board to measure the orientation of the robot</li>
-            <li>Three ultrasonic sensors to detect blockages in front and at the sides of the robot</li>
-        </ul>
-        
-        On the software side, I wrote the autonomous navigation algorithms, UI and mapping. 
-        At every intersection, there are eight possible headings for the robot to explore. 
-        Each heading (streets) is denoted by the following status colored on the map shown in the video below:
-        <ul>
-            <li>Black: existence of the street is unknown</li>
-            <li>Blue: street exists but is unexplored</li>
-            <li>Green: street is fully explored (connect to another intersection)</li>
-            <li>Red: street has a dead end</li>
-        </ul>
-        I implemented Dijkstra's algorithm to find the optimal path to a goal node set by the user. 
-        If the node is not on the current map, I implemented Dijkstra to the nearest nodes with unexplored headings
-        while also exploring the map in the direction of the goal.
-        Blockages are denoted by a red X on the map in the video below. The robot is able to replan around static blockages
-        along with perform a panic u-turn on moving blockages. 
-
-        Below, is a demo of the robot where we run a directed explore 
-    </p>
-
-
-<video width="700" height="500" controls>
-    <source src="/images/129Demo.mp4" type="video/mp4"></video>
-
-</body>
-</html>

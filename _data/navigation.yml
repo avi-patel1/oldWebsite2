@@ -2,13 +2,13 @@
 main:
 
   - title: "Research"
-    url: /research/     
+    url: /research/   
+
+  - title: "Engineering Portfolio"
+    url: /portfolio/  
 
   - title: "CV"
     url: /files/Patel_CV.pdf
     
-  - title: "Engineering Portfolio"
-    url: /portfolio/
-
   - title: "Hobbies"
     url: /hobbies/ 
