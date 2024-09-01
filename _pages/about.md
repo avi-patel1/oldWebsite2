@@ -13,7 +13,7 @@ I received a Bachelor of Science in Mechanical Engineering from the California I
 
 Aside from research, I am an avid mountain biker and enjoy playing guitar and composing music. 
 
-<img src="https://avi-patel1.github.io/images/IMG_8290.png" class="floatpic" width="360" height="480">
+<img src="/images/casual_profile_pic.jpg" class="floatpic" width="360" height="480">
 
 
 
