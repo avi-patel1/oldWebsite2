@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello, my name is Avi Patel. I'm a graduate student at UC Santa Cruz in the Department of Astronomy and Astrophysics. My interests include anomaly detection in time-series data, deep learning, data mining and visualiation. My research is using machine learning to detect and characterize variable stars. 
+Hello, my name is Avi Patel. I'm a graduate student at UC Santa Cruz in the Department of Astronomy and Astrophysics. My interests include anomaly detection in time-series data, deep learning, data mining and visualization. My research is using machine learning to detect and characterize variable stars. 
 
 I received a Bachelor of Science in Mechanical Engineering from the California Institute of Technology and Bachelor of Science in Physics from Haverford College. 
 
