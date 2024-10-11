@@ -21,7 +21,7 @@ repository               : "avi-patel1/avi-patel1.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : patel_avatar.jpg
+  avatar           : patel_avatar.png
   name             : "Avi Patel"
   pronouns         : # example: "she/her"  
   bio              :
